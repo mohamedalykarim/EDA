@@ -215,6 +215,190 @@ fun StartActivityUI(context: Context){
 
             }
 
+
+            /**
+             * Estesharat Dawaia
+             */
+            Row (modifier = Modifier
+                .padding(2.dp)
+                .height(100.dp)
+                .border(3.dp, buttonEdgeColor)
+                .clickable{
+
+                }
+            ) {
+                Row(modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(3f)
+                    .background(Color.White),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.Center
+                ) {
+                    Image(painterResource(id = R.drawable.service5), modifier = Modifier.width(100.dp).height(100.dp), contentDescription = "الاستفسار عن معلومات دوائية موثوقة")
+                    Text(text = "الاستفسار عن معلومات دوائية موثوقة", textAlign = TextAlign.Center)
+                }
+
+                Row(modifier = Modifier
+                    .fillMaxSize()
+                    .background(buttonEdgeColor)
+                    .weight(1f),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.Center
+
+                ) {
+                    Text(text = "املأ النموذج", color = Color.White)
+                    Icon(Icons.Rounded.KeyboardArrowRight, contentDescription = "Go to service")
+                }
+
+            }
+
+
+            /**
+             * Almrakez Almotnakela
+             */
+            Row (modifier = Modifier
+                .padding(2.dp)
+                .height(100.dp)
+                .border(3.dp, buttonEdgeColor)
+                .clickable{
+
+                }
+            ) {
+                Row(modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(3f)
+                    .background(Color.White),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    Image(painterResource(id = R.drawable.service6), modifier = Modifier.width(100.dp).height(100.dp), contentDescription = "خدمات المراكز المتنقلة")
+                    Text(text = "خدمات المراكز المتنقلة", modifier = Modifier.fillMaxWidth(),  textAlign = TextAlign.Center)
+                }
+
+                Row(modifier = Modifier
+                    .fillMaxSize()
+                    .background(buttonEdgeColor)
+                    .weight(1f),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.Center
+
+                ) {
+                    Text(text = "املأ النموذج", color = Color.White)
+                    Icon(Icons.Rounded.KeyboardArrowRight, contentDescription = "Go to service")
+                }
+
+            }
+
+
+            /**
+             * Alakhtaa Aldwaia
+             */
+            Row (modifier = Modifier
+                .padding(2.dp)
+                .height(100.dp)
+                .border(3.dp, buttonEdgeColor)
+                .clickable{
+
+                }
+            ) {
+                Row(modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(3f)
+                    .background(Color.White),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.Center
+                ) {
+                    Image(painterResource(id = R.drawable.service7), modifier = Modifier.width(100.dp).height(100.dp), contentDescription = "برنامج الإبلاغ عن الأخطاء الدوائية (No HARMe)")
+                    Text(text = "برنامج الإبلاغ عن الأخطاء الدوائية (No HARMe)", textAlign = TextAlign.Center)
+                }
+
+                Row(modifier = Modifier
+                    .fillMaxSize()
+                    .background(buttonEdgeColor)
+                    .weight(1f),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.Center
+
+                ) {
+                    Text(text = "املأ النموذج", color = Color.White)
+                    Icon(Icons.Rounded.KeyboardArrowRight, contentDescription = "Go to service")
+                }
+
+            }
+
+
+            /**
+             * Ta7weel Almostdrat
+             */
+            Row (modifier = Modifier
+                .padding(2.dp)
+                .height(100.dp)
+                .border(3.dp, buttonEdgeColor)
+                .clickable{
+
+                }
+            ) {
+                Row(modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(3f)
+                    .background(Color.White),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.Center
+                ) {
+                    Image(painterResource(id = R.drawable.service8), modifier = Modifier.width(100.dp).height(100.dp), contentDescription = "تحويل المستحضرات من وصفية إلى غير وصفية")
+                    Text(text = "تحويل المستحضرات من وصفية إلى غير وصفية", textAlign = TextAlign.Center)
+                }
+
+                Row(modifier = Modifier
+                    .fillMaxSize()
+                    .background(buttonEdgeColor)
+                    .weight(1f),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.Center
+
+                ) {
+                    Text(text = "املأ النموذج", color = Color.White)
+                    Icon(Icons.Rounded.KeyboardArrowRight, contentDescription = "Go to service")
+                }
+
+            }
+
+
+            /**
+             * Naharat Aladwia
+             */
+            Row (modifier = Modifier
+                .padding(2.dp)
+                .height(100.dp)
+                .border(3.dp, buttonEdgeColor)
+                .clickable{
+
+                }
+            ) {
+                Row(modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(3f)
+                    .background(Color.White),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.Center
+                ) {
+                    Image(painterResource(id = R.drawable.service9), modifier = Modifier.width(100.dp).height(100.dp), contentDescription = "إستفسارات نشرات الأدوية البشرية")
+                    Text(text = "إستفسارات نشرات الأدوية البشرية", textAlign = TextAlign.Center)
+                }
+
+                Row(modifier = Modifier
+                    .fillMaxSize()
+                    .background(buttonEdgeColor)
+                    .weight(1f),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.Center
+
+                ) {
+                    Text(text = "املأ النموذج", color = Color.White)
+                    Icon(Icons.Rounded.KeyboardArrowRight, contentDescription = "Go to service")
+                }
+
+            }
+
         }
     }
 }
